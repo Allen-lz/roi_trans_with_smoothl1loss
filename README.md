@@ -177,7 +177,7 @@ This project is released under the [Apache 2.0 license](LICENSE).
 
 
 
-### Train
+### RUN
 ```
 CUDA_VISIBLE_DEVICES=0 python tools/train.py configs/roi_trans/roi_trans_r50_fpn_1x_dota_le90.py
 
