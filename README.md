@@ -179,6 +179,10 @@ This project is released under the [Apache 2.0 license](LICENSE).
 
 ### RUN
 ```
+copy mmdet to Anaconda3/envs/stylegan3/Lib/site-packages
+relpace origin mmdet
+pip install -v -e .
+
 CUDA_VISIBLE_DEVICES=0 python tools/train.py configs/roi_trans/roi_trans_r50_fpn_1x_dota_le90.py
 
 RotatedShared2FCBBoxHead: mmrotate/models/roi_heads/bbox_heads/convfc_rbbox_head.py
